@@ -35,3 +35,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Study source:
 See [Vue Mastery](https://www.vuemastery.com/courses/)
+
+### Basic study includes:
+- Vuex (State, Mutations, Modules, Getters, Actions)
+- Router
+- Component Life Cycle
+- Router Life Cyle
+- Base Component for Reuse
+- Axios API Call
+- Basic Loading indicator using `NProgress`
+- Basic Validation using `vuelidate`
+- Basic Error Handling
