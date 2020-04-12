@@ -46,3 +46,4 @@ See [Vue Mastery](https://www.vuemastery.com/courses/)
 - Basic Loading indicator using `NProgress`
 - Basic Validation using `vuelidate`
 - Basic Error Handling
+- Mixins

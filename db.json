@@ -125,6 +125,24 @@
       "date": "2020-06-06T03:49:00.000Z",
       "time": "6:00",
       "attendees": []
+    },
+    {
+      "id": 9224907,
+      "user": {
+        "id": "1",
+        "name": "MEOW"
+      },
+      "category": "FF7R",
+      "organizer": {
+        "id": "1",
+        "name": "MEOW"
+      },
+      "title": "MIXINS",
+      "description": "MIXINS Desc",
+      "location": "HCMC",
+      "date": "2020-04-10T10:26:00.000Z",
+      "time": "6:00",
+      "attendees": []
     }
   ]
 }
