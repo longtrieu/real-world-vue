@@ -47,3 +47,4 @@ See [Vue Mastery](https://www.vuemastery.com/courses/)
 - Basic Validation using `vuelidate`
 - Basic Error Handling
 - Mixins
+- Data filter
