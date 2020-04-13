@@ -48,3 +48,5 @@ See [Vue Mastery](https://www.vuemastery.com/courses/)
 - Basic Error Handling
 - Mixins
 - Data filter
+- Page transition for RouterView
+- First Unit Test with Jest
