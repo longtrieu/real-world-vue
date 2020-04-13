@@ -11,4 +11,12 @@ describe('BaseInput.vue', () => {
     const wrapper = mount(BaseInput)
     expect(wrapper.find('label').exists()).toBe(false)
   })
+
+  test('After user input, props value should be saved', () => {
+    const wrapper = mount(BaseInput)
+    const newTitle = 'Add a new Title'
+    const inputField = wrapper.find('input')
+    inputField.value = newTitle
+    expect(wrapper.props('value')) === newTitle
+  })
 })
