@@ -16,7 +16,20 @@ describe('BaseInput.vue', () => {
     const wrapper = mount(BaseInput)
     const newTitle = 'Add a new Title'
     const inputField = wrapper.find('input')
-    inputField.value = newTitle
+    inputField.element.value = newTitle
+    inputField.trigger('input')
     expect(wrapper.props('value')) === newTitle
+  })
+
+  test('After user input, emit event should be triggered', () => {
+    const wrapper = mount(BaseInput)
+    const newTitle = 'Add a new Title'
+    const inputField = wrapper.find('input')
+    inputField.element.value = newTitle
+    inputField.trigger('input')
+
+    const updateEmittedCalls = wrapper.emitted('input')
+    expect(updateEmittedCalls).toHaveLength(2)
+    expect(updateEmittedCalls[0][0]) === newTitle
   })
 })
