@@ -30,6 +30,16 @@ json-server --watch db.json
 json-server -d 1500 db.json
 ```
 
+### Add Jest for Unit Testing to project
+```
+vue add @vue/unit-jest
+```
+
+### Run your Unit Tests
+```
+npm run test:unit
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
